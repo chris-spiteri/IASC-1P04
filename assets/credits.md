@@ -21,3 +21,10 @@ by Breviceps
 
 2018 - Licensed Under
 Creative Commons 0
+
+---
+
+"SS John Young Cargo Craft Docks to Space Station" 
+by NASA's Marshall Space Flight Center 
+is licensed under 
+CC BY-NC 2.0
