@@ -98,7 +98,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<tw-storydata name="StyxPrototypeOnFinal" startnode="1" creator="Twine" creator-version="2.3.15" ifid="302B32FA-8AA6-4546-B6A8-7719DF3551CD" zoom="1" format="SugarCube" format-version="2.34.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">#ui-bar {
+	<tw-storydata name="StyxPrototypeOnFinal" startnode="1" creator="Twine" creator-version="2.3.15" ifid="302B32FA-8AA6-4546-B6A8-7719DF3551CD" zoom="0.6" format="SugarCube" format-version="2.34.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">#ui-bar {
   display: none;
   
 }
@@ -233,27 +233,22 @@ You have no reason to return to the Empire of the Extrapersonal.
 &lt;&lt;if $personal&gt;&gt;
 You have no reason to return to the Palace of the Personal.
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/if&gt;&gt;
 
 
-</tw-passagedata><tw-passagedata pid="5" name="Proad" tags="" position="1225,775" size="100,100">&lt;img src = &quot;https://chris-spiteri.github.io/IASC-1P04/assets/publicDomainCave.jpg&quot;&gt;
 
-&lt;&lt;if $rest != true&gt;&gt;
-	&lt;&lt;if $ferryman&gt;&gt;
-		You decide to appeal to the heads of the Personal Sins.
-	&lt;&lt;/if&gt;&gt;
-	You make your way slowly towards the shrouded compound in the 		distance.
-	Growing weary, you spot what appears to be an inn, with shadowy underworld denizens entering and exiting. Jealous, you realize that you yourself have been trekking for hours.
+</tw-passagedata><tw-passagedata pid="5" name="Proad" tags="" position="1225,775" size="100,100">You head down the path towards Pride&#39;s Domain.
 
-	&lt;&lt;timed 6s&gt;&gt;
-	Do you [[book a room and rest|inn]], or [[complete your trek to your 	destination|Psin]]?
-	&lt;&lt;/timed&gt;&gt;
-&lt;&lt;/if&gt;&gt;
+&lt;&lt;timed 2s&gt;&gt;
+You notice the path slowly begin to sparkle, until before long, you find that you&#39;re treading on mirrors.
+&lt;&lt;/timed&gt;&gt;
 
-&lt;&lt;if $rest&gt;&gt;
-	You stretch and let out a yawn, filling your lungs with the same dry air you&#39;ve been choking on for what seems like forever. Eventually, you reach the dark, lofty building and [[step inside...|Psin]]
-&lt;&lt;/if&gt;&gt;
+&lt;&lt;timed 5s&gt;&gt;
+You catch a glimpse of yourself in the reflection. You can see the worry on your face.. What could Pride have in store for you?
+&lt;&lt;/timed&gt;&gt;
 
+&lt;&lt;timed 7s&gt;&gt;
+You shake your head. You need to focus. Wary, [[you continue along your path...|pride]]
+&lt;&lt;/timed&gt;&gt;
 </tw-passagedata><tw-passagedata pid="6" name="Investigate Sound" tags="" position="1500,350" size="100,100">&quot;What do you mean?&quot;
 You call out into the abyss, confused..
 
@@ -282,12 +277,280 @@ However, you&#39;re glad you stuck to your intuition... You felt something withi
 &lt;&lt;if $ferryman&gt;&gt;
 Feeling only slightly assured with yourself, you prepare to embark on your journey. You walk until you come across a fork in your path...
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;/if&gt;&gt;
 
 &lt;&lt;timed 6s&gt;&gt;
 Before you you see two roads, marked with a sign...
 You [[read it as you decide where to go..|fork]]
-&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Wroad" tags="" position="1125,650" size="100,100">You head down the path towards Wrath&#39;s domain.</tw-passagedata><tw-passagedata pid="9" name="GRroad" tags="" position="1350,900" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="10" name="GLroad" tags="" position="1500,950" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="11" name="Sroad" tags="" position="1650,900" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="12" name="Lroad" tags="" position="1775,775" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="13" name="Eroad" tags="" position="1875,650" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Wroad" tags="" position="1125,650" size="100,100">You head down the path towards Wrath&#39;s Domain.
+
+&lt;&lt;timed 2s&gt;&gt;
+The road is blood splattered. You amble along cautiously, wondering what trial lay in wait for you, when suddenly..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 5s&gt;&gt;
+You feel your hair stand up on end, at the sound of the bones you&#39;ve just crushed under your foot. You turn around and find a small, mouse-like creature laying in the dust, slowly dying.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;
+You move back towards it to examine its body. The injury looks mortal.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 13s&gt;&gt;
+You could [[put the poor thing out of it&#39;s misery..|WdecisionA]]
+Or, you could [[leave it alone.|WdecisionB]] You have more important matters to attend to.
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="GRroad" tags="" position="1350,900" size="100,100">You head down the path towards Greed&#39;s Domain.
+
+&lt;&lt;timed 2s&gt;&gt;
+The road is gilded. You&#39;re nearly blinded by the sparkling gold pavement you&#39;re treading apon. It contrasts with the dark and cavernous backdrop quite unsettlingly. 
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 5s&gt;&gt;
+The path&#39;s edges glitter with lost goods. Gems, gold and various items as far as the eye can see. Suddenly, you spot a cloak lying in the dirt.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 9s&gt;&gt;
+The underworld&#39;s breeze stings your skin. You don&#39;t plan on being here long, but some protection could sure come in handy.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 13s&gt;&gt;
+You could [[don the cloak..|GRdecision]]
+Or, you could [[leave it where it is.|greed]] As much as you may want it, it doesn&#39;t belong to you.
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="GLroad" tags="" position="1500,950" size="100,100">You head down the path towards Gluttony&#39;s Domain.
+
+&lt;&lt;timed 2s&gt;&gt;
+You don&#39;t feel hungry, but you realize that you haven&#39;t eaten in what feels like days. You wonder if it&#39;s possible to starve to death in the afterlife. Where would you go then?
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;
+Suddenly, as if on cue, you begin to smell something delectable. Separated from your physical body, you struggle to remember your favorite food, however you&#39;re fairly certain this is it..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 11s&gt;&gt;
+You certainly don&#39;t need it, but maybe you&#39;ve earned a pick-me-up. You&#39;ve been travelling for so long.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 13s&gt;&gt;
+You could [[follow the scent.|gluttony]] You deserve a treat.
+Or, you could [[keep on moving forward.|GLroad2]]
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="Sroad" tags="" position="1650,900" size="100,100">You head down the path towards Sloth&#39;s Domain.
+&lt;&lt;set $sloth = true&gt;&gt;
+
+&lt;&lt;timed 2s&gt;&gt;
+The road is soft; really soft. It seems to be made of a fabric. It reminds you of the abrasive pain you feel throughout your tired soul..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 5s&gt;&gt;
+You&#39;ve been travelling for a while now, and you come across a warm nook in the soft terrain.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;
+You don&#39;t know how the wear you&#39;re feeling will affect the remainder of your journey..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 13s&gt;&gt;
+You could [[forge ahead despite the attractive-looking rest..|sloth]]
+Or, you could [[shut your eyes for a while.|SLdecisionB]] You need to conserve energy, after all.
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="12" name="Lroad" tags="" position="1775,775" size="100,100">You head down the path towards Lust&#39;s Domain.
+
+&lt;&lt;timed 2s&gt;&gt;
+You can barely focus on walking as you ponder what you&#39;re possibly going to be put through where you get where you&#39;re going..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 6s&gt;&gt;
+You continue to trek, and find that there&#39;s nothing laid before you. No test, no change in terrain.. You&#39;re certainly not getting any less worried.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;
+Eventually, a the pink glow of a neon sign fills the horizon, and you find yourself under the canopy of a dingy brick building.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 13s&gt;&gt;
+You step inside and find a figure, laying on some sort of bed.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 14&gt;&gt;
+[[You swallow hard..|lust1]]
+&lt;&lt;set $lust = true&gt;&gt;
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="Eroad" tags="" position="1875,650" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="14" name="WdecisionA" tags="" position="998,599" size="100,100">&lt;&lt;set $wrath = true&gt;&gt;
+You lower yourself to the being and caress it carefully in its final moments...
+
+&lt;&lt;timed 3s&gt;&gt;
+You can&#39;t bring yourself to harm it any further, but it seems to appreciate the love you&#39;ve shown for it.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 8s&gt;&gt;
+The small being dies peacefully in your arms..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 11s&gt;&gt;
+You worry for a second about what this means for your trial with Wrath, and eventually [[continue on your way |wrath]]
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="WdecisionB" tags="" position="999,703" size="100,100">&lt;&lt;set $wrath = false&gt;&gt;
+
+You leave the thing to die in the dirt. Its life is inconsequential to your mission here, and you can&#39;t afford to waste a second..
+
+&lt;&lt;timed 3s&gt;&gt;
+Without skipping a beat, you [[continue along the path |wrath]]
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="16" name="wrath" tags="" position="800,646" size="100,100">You eventually find yourself standing before a massive fortified stone citadel. Only, there is no village to be found in the middle. You feel some fire within you burn, and know who it is you&#39;re staring down.
+
+&lt;&lt;timed 5s&gt;&gt;
+Wrath..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;
+He seems to have been expecting you, and calls out to you..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;
+&lt;&lt;if $wrath&gt;&gt;
+&quot;You have done well to come here. I have watched your actions during your travels and am pleased with the compassion you have shown. The merciful and empathetic have much to provide the world of the living. I bestow upon you a gift of CONVICTION. [[Go in peace.|fork]]
+&lt;&lt;set $conviction += 20&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $wrath != true&gt;&gt;
+&quot;To show your face here is a disgrace to our realm. I am displeased with the actions you have taken to reach me. The creature was your trial, and you have failed. [[Leave at once.|fork]]
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;set $check1 = true&gt;&gt;
+
+</tw-passagedata><tw-passagedata pid="17" name="pride" tags="" position="1104,898" size="100,100">You eventually find yourself faced with a massive mirrored tower. At the top, you stare down a radiant entity. You take an educated guess at who this might be.. 
+
+&lt;&lt;timed 5s&gt;&gt;
+Pride...
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;
+He seems to have been expecting you, and calls out to you..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;
+&lt;&lt;if $check1 != true&gt;&gt;
+&quot;You have done well to come here at the time you did. Those who choose to validate their ego above all else seek nothing but ruin. You have worked towards the other aspects of your being first, and for that, I bestow upon you a gift of CONVICTION. [[Go in humility.&quot;|fork]]
+&lt;&lt;set $conviction += 20&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $check1 = true&gt;&gt;
+&quot;To show your face here so soon is a disgrace to our realm. Attempting to validate your sense of pride before all alse shows a lack of humility. [[Leave at once.&quot;|fork]]
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="GRdecision" tags="" position="1151,1061" size="100,100">You don the cloak.
+&lt;&lt;set greed = false&gt;&gt;
+
+&lt;&lt;timed 1s&gt;&gt;
+You instantly feel some relief from the bitter cold, and [[continue along the path...|greed]]</tw-passagedata><tw-passagedata pid="19" name="greed" tags="" position="975.6666666666666,1238.6666666666667" size="100,100">You eventually find yourself at the gates of a tall, golden palace. Within its throne room, you see a figure, shrouded in all sorts of extravagant fabrics. It&#39;s all the indication you need.
+
+&lt;&lt;timed 5s&gt;&gt;
+It&#39;s Greed..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;
+He seems to have been expecting you, and calls out to you..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;
+&lt;&lt;if $greed&gt;&gt;
+&quot;You have done well to come here. Arriving without having pocketed or donned a single item littered about my domain shows a magnitude of self control which speaks to your humanity. I bestow upon you a gift of CONVICTION. [[Go in temperence.|fork]]
+&lt;&lt;set $conviction += 20&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $greed != true&gt;&gt;
+&quot;To show your face here is a disgrace to our realm. The rag you wear was set in the dirt as a test of your impulse control. You have failed to control your impulses and have desecrated my domain with your presence. [[Leave at once.|fork]]
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;set $check1 = true&gt;&gt;</tw-passagedata><tw-passagedata pid="20" name="GLroad2" tags="" position="1453.3333333333333,1318.3333333333335" size="100,100">&lt;&lt;set $gluttony = true&gt;&gt;
+You decide that you probably shouldn&#39;t stop for a snack during Gluttony&#39;s Trial. You keep pressing forward, proud of yourself for making such a seemingly obvious choice.
+
+&lt;&lt;timed 4s&gt;&gt;
+You begin to doubt yourself when you come face to face with a cliff overlooking a vast expanse of nothing.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 9s&gt;&gt;
+A dead end? In the afterlife? It&#39;d be a funny pun if it wasn&#39;t so worrying for you. Should you have gone for the food?
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 11s&gt;&gt;
+Growing concerned, you turn back around, and [[follow your nose back to the scent.|gluttony]]
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="21" name="gluttony" tags="" position="1475,1163.3333333333333" size="100,100">You follow this scent back to a familiar looking building.The grease yellow and bright red on the building&#39;s exterior bring your soul comfort for some reason you can&#39;t describe. The smell becomes more concentrated As you enter.
+
+&lt;&lt;timed 5s&gt;&gt;
+You find yourself face to face with a large figure, dressed in an old tattered apron. As blatant as this seems, you know you&#39;ve finally found Gluttony..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;
+She seems to have been expecting you, and calls out to you..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;
+&lt;&lt;if $gluttony&gt;&gt;
+&quot;You have done well to come here. I see the confusion in your face. You skipped over this place at first, didn&#39;t you? Congratulations. That shows an extreme dedication that no amount of self-indulgence could comprimise. I bestow upon you a gift of CONVICTION. [[Go in discipline.|fork]]
+&lt;&lt;set $conviction += 20&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $gluttony != true&gt;&gt;
+&quot;To show your face here is a disgrace to our realm. The speed with which you entered this sacred place shows no discipline. You will find no indulgence here, mortal.[[Leave at once.|fork]]
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;set $check1 = true&gt;&gt;</tw-passagedata><tw-passagedata pid="22" name="SLdecisionB" tags="" position="1800,1101.6666666666667" size="100,100">&lt;&lt;set $sloth = false&gt;&gt;
+You flop onto the plush earth and shut your eyes for a moment. 
+
+&lt;&lt;timed 2s&gt;&gt;
+You feel yourself slip from consciousness as you lie there. 
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 4s&gt;&gt;
+What could you even define as consciousness in this state anyways?
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;
+Who are you to say?
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 12s&gt;&gt;
+You&#39;re too emotionally exhausted to ponder this. [[Go to sleep already...|sloth]]
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="23" name="sloth" tags="" position="1801.6666666666665,1308.3333333333335" size="100,100">&lt;&lt;if $sloth&gt;&gt;
+After a bit of walking, you find nothing out of the ordinary.. Instead, you catch a figure wandering around an open field of comfortable looking earth, not unlike the one you found yourself in previously. You stare in disbelief as you try to put two and two together.. You think it&#39;s...
+
+&lt;&lt;timed 5s&gt;&gt;
+Sloth?
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;
+You weren&#39;t expecting to find her out here... She calls out to you:
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;
+&quot;You have done well to find me here. I wander these plains, keeping the restful and lazy souls moving. To beat the temptation of divine rest for the sake of your cause shows a true passion for life. I bestow upon you a gift of CONVICTION. [[Go in diligence.|fork]]
+&lt;&lt;set $conviction += 20&gt;&gt;
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;if $sloth != true&gt;&gt;
+You have no idea how much time has passed..
+&lt;&lt;timed 2s&gt;&gt;
+Eventually, you are awoken by a figure standing over you. Great..
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 4s&gt;&gt;
+&quot;Hello,&quot; the voice says.
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 5s&gt;&gt;
+&quot;I am Sloth.. I see you&#39;re the lazy type, so I&#39;ll make this quick. You&#39;ve failed this trial. [[Go.|fork]]
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;&lt;set $check1 = true&gt;&gt;</tw-passagedata><tw-passagedata pid="24" name="lust1" tags="" position="2001.6666666666667,903.3333333333334" size="100,100">&quot;Are you... Lust?&quot; you ask, growing ever more concerned by the minute..
+
+&lt;&lt;timed 3s&gt;&gt;
+&quot;That depends, who&#39;s askin&#39;?&quot; They retort.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 5s&gt;&gt;
+&quot;Are you going to-&quot; You start to ask, until you&#39;re interrupted.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 11s&gt;&gt;
+&quot;Maybe..&quot; They reply, slyly. &quot;How smart of you to get it..&quot;
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 13s&gt;&gt;
+Finally, someone enjoyable to talk to. But you can&#39;t stay long. You have more important business here.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 15s&gt;&gt;
+Do you choose to [[cut it short|lust2]] or [[keep talking?|lust3]]</tw-passagedata><tw-passagedata pid="25" name="lust2" tags="" position="2088.3333333333335,1148.3333333333335" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="26" name="lust3" tags="" position="2196.666666666667,1036.6666666666667" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
 	if(document.documentElement.getAttribute("data-init")==="loading"){!function(window,document,jQuery,undefined){"use strict";function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,r=Array(e.length);t<e.length;t++)r[t]=e[t];return r}return Array.from(e)}var _createClass=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,r,n){return r&&e(t.prototype,r),n&&e(t,n),t}}(),_slicedToArray=function(){function e(e,t){var r=[],n=!0,a=!1,i=undefined;try{for(var o,s=e[Symbol.iterator]();!(n=(o=s.next()).done)&&(r.push(o.value),!t||r.length!==t);n=!0);}catch(e){a=!0,i=e}finally{try{!n&&s.return&&s.return()}finally{if(a)throw i}}return r}return function(t,r){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,r);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},errorPrologRegExp=/^(?:(?:uncaught\s+(?:exception:\s+)?)?\w*(?:error|exception|_err):\s+)+/i,Alert=function(){function e(e,t,r,n){var a="fatal"===e,i="Apologies! "+(a?"A fatal":"An")+" error has occurred.";i+=a?" Aborting.":" You may be able to continue, but some parts may not work properly.",null==t&&null==r||(i+="\n\nError",null!=t&&(i+=" ["+t+"]"),i+=null!=r?": "+r.replace(errorPrologRegExp,"")+".":": unknown error."),"object"===(void 0===n?"undefined":_typeof(n))&&null!==n&&n.stack&&(i+="\n\nStack Trace:\n"+n.stack),window.alert(i)}function t(t,r,n){e(null,t,r,n)}function r(t,r,n){e("fatal",t,r,n)}return function(e){window.onerror=function(n,a,i,o,s){"complete"===document.readyState?t(null,n,s):(r(null,n,s),window.onerror=e,"function"==typeof window.onerror&&window.onerror.apply(this,arguments))}}(window.onerror),Object.freeze(Object.defineProperties({},{error:{value:t},fatal:{value:r}}))}(),Patterns=function(){var e=function(){var e=new Map([[" ","\\u0020"],["\f","\\f"],["\n","\\n"],["\r","\\r"],["\t","\\t"],["\v","\\v"],[" ","\\u00a0"],[" ","\\u1680"],["᠎","\\u180e"],[" ","\\u2000"],[" ","\\u2001"],[" ","\\u2002"],[" ","\\u2003"],[" ","\\u2004"],[" ","\\u2005"],[" ","\\u2006"],[" ","\\u2007"],[" ","\\u2008"],[" ","\\u2009"],[" ","\\u200a"],["\u2028","\\u2028"],["\u2029","\\u2029"],[" ","\\u202f"],[" ","\\u205f"],["　","\\u3000"],["\ufeff","\\ufeff"]]),t=/^\s$/,r="";return e.forEach(function(e,n){t.test(n)||(r+=e)}),r?"[\\s"+r+"]":"\\s"}(),t="[\\u0020\\f\\t\\v\\u00a0\\u1680\\u180e\\u2000-\\u200a\\u202f\\u205f\\u3000\\ufeff]",r="\\s"===e?"\\S":e.replace(/^\[/,"[^"),n="[0-9A-Z_a-z\\-\\u00c0-\\u00d6\\u00d8-\\u00f6\\u00f8-\\u00ff\\u0150\\u0170\\u0151\\u0171]",a=n.replace("\\-",""),i=function(){var e="(?:[\\x2D.0-9A-Z_a-z\\xB7\\xC0-\\xD6\\xD8-\\xF6\\xF8-\\u037D\\u037F-\\u1FFF\\u200C\\u200D\\u203F\\u2040\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD]|[\\uD800-\\uDB7F][\\uDC00-\\uDFFF])";return"[A-Za-z](?:"+e+"*-"+e+"*|[0-9A-Za-z]*)"}(),o=function(){return"("+n+"+)\\(([^\\)\\|\\n]+)\\):|"+t+"*("+n+"+)"+t+"*:([^;\\|\\n]+);|"+t+"*((?:[#.]"+n+"+"+t+"*)+);"}();return Object.freeze({space:e,spaceNoTerminator:t,lineTerminator:"[\\n\\r\\u2028\\u2029]",notSpace:r,anyChar:"(?:.|[\\n\\r\\u2028\\u2029])",anyLetter:n,anyLetterStrict:a,identifierFirstChar:"[$A-Z_a-z]",identifierNextChar:"[$0-9A-Z_a-z]",identifier:"[$A-Z_a-z][$0-9A-Z_a-z]*",variableSigil:"[$_]",variable:"[$_][$A-Z_a-z][$0-9A-Z_a-z]*",macroName:"[A-Za-z][\\w-]*|[=-]",templateName:"[A-Za-z][\\w-]*",htmlTagName:i,cssIdOrClassSigil:"[#.]",cssImage:"\\[[<>]?[Ii][Mm][Gg]\\[(?:\\s|\\S)*?\\]\\]+",inlineCss:o,url:"(?:file|https?|mailto|ftp|javascript|irc|news|data):[^\\s'\"]+"})}();!function(){function e(e,t){var r=Number.parseInt(e,10)||0;if(r<1)return"";var n=void 0===t?"":String(t);for(""===n&&(n=" ");n.length<r;){var a=n.length,i=r-a;n+=a>i?n.slice(0,i):n}return n.length>r&&(n=n.slice(0,r)),n}var t=function(){function e(e,n){var a=String(e);if(!a)return a;switch(n){case"start":return t.test(a)?a.replace(t,""):a;case"end":return r.test(a)?a.replace(r,""):a;default:throw new Error('_trimString called with incorrect where parameter value: "'+n+'"')}}var t=new RegExp("^"+Patterns.space+Patterns.space+"*"),r=new RegExp(""+Patterns.space+Patterns.space+"*$");return e}();Array.prototype.flat||Object.defineProperty(Array.prototype,"flat",{configurable:!0,writable:!0,value:function(){function e(){if(null==this)throw new TypeError("Array.prototype.flat called on null or undefined");var t=0===arguments.length?1:Number(arguments[0])||0;return t<1?Array.prototype.slice.call(this):Array.prototype.reduce.call(this,function(r,n){return n instanceof Array?r.push.apply(r,_toConsumableArray(e.call(n,t-1))):r.push(n),r},[])}return e}()}),Array.prototype.flatMap||Object.defineProperty(Array.prototype,"flatMap",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.flatMap called on null or undefined");return Array.prototype.map.apply(this,arguments).flat()}}),Array.prototype.includes||Object.defineProperty(Array.prototype,"includes",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includes called on null or undefined");if(0===arguments.length)return!1;var e=this.length>>>0;if(0===e)return!1;var t=arguments[0],r=Number(arguments[1])||0;for(r<0&&(r=Math.max(0,e+r));r<e;++r){var n=this[r];if(n===t||n!==n&&t!==t)return!0}return!1}}),Object.entries||Object.defineProperty(Object,"entries",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)throw new TypeError("Object.entries object parameter must be an object");return Object.keys(e).map(function(t){return[t,e[t]]})}}),Object.fromEntries||Object.defineProperty(Object,"fromEntries",{configurable:!0,writable:!0,value:function(e){return Array.from(e).reduce(function(e,t){if(Object(t)!==t)throw new TypeError("Object.fromEntries iterable parameter must yield objects");return t[0]in e?Object.defineProperty(e,t[0],{configurable:!0,enumerable:!0,writable:!0,value:t[1]}):e[t[0]]=t[1],e},{})}}),Object.getOwnPropertyDescriptors||Object.defineProperty(Object,"getOwnPropertyDescriptors",{configurable:!0,writable:!0,value:function(e){if(null==e)throw new TypeError("Object.getOwnPropertyDescriptors object parameter is null or undefined");var t=Object(e);return Reflect.ownKeys(t).reduce(function(e,r){var n=Object.getOwnPropertyDescriptor(t,r);return void 0!==n&&(r in e?Object.defineProperty(e,r,{configurable:!0,enumerable:!0,writable:!0,value:n}):e[r]=n),e},{})}}),Object.values||Object.defineProperty(Object,"values",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)throw new TypeError("Object.values object parameter must be an object");return Object.keys(e).map(function(t){return e[t]})}}),String.prototype.padStart||Object.defineProperty(String.prototype,"padStart",{configurable:!0,writable:!0,value:function(t,r){if(null==this)throw new TypeError("String.prototype.padStart called on null or undefined");var n=String(this),a=n.length,i=Number.parseInt(t,10);return i<=a?n:e(i-a,r)+n}}),String.prototype.padEnd||Object.defineProperty(String.prototype,"padEnd",{configurable:!0,writable:!0,value:function(t,r){if(null==this)throw new TypeError("String.prototype.padEnd called on null or undefined");var n=String(this),a=n.length,i=Number.parseInt(t,10);return i<=a?n:n+e(i-a,r)}}),String.prototype.trimStart||Object.defineProperty(String.prototype,"trimStart",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimStart called on null or undefined");return t(this,"start")}}),String.prototype.trimLeft||Object.defineProperty(String.prototype,"trimLeft",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimLeft called on null or undefined");return t(this,"start")}}),String.prototype.trimEnd||Object.defineProperty(String.prototype,"trimEnd",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimEnd called on null or undefined");return t(this,"end")}}),String.prototype.trimRight||Object.defineProperty(String.prototype,"trimRight",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimRight called on null or undefined");return t(this,"end")}})}(),function(){function _random(){var e=void 0,t=void 0;switch(arguments.length){case 0:throw new Error("_random called with insufficient parameters");case 1:e=0,t=arguments[0];break;default:e=arguments[0],t=arguments[1]}if(e>t){var r=[t,e];e=r[0],t=r[1]}return Math.floor(_nativeMathRandom()*(t-e+1))+e}function _randomIndex(e,t){var r=void 0,n=void 0;switch(t.length){case 1:r=0,n=e-1;break;case 2:r=0,n=Math.trunc(t[1]);break;default:r=Math.trunc(t[1]),n=Math.trunc(t[2])}return Number.isNaN(r)?r=0:!Number.isFinite(r)||r>=e?r=e-1:r<0&&(r=e+r)<0&&(r=0),Number.isNaN(n)?n=0:!Number.isFinite(n)||n>=e?n=e-1:n<0&&(n=e+n)<0&&(n=e-1),_random(r,n)}function _getCodePointStartAndEnd(e,t){var r=e.charCodeAt(t);if(Number.isNaN(r))return{char:"",start:-1,end:-1};if(r<55296||r>57343)return{char:e.charAt(t),start:t,end:t};if(r>=55296&&r<=56319){var n=t+1;if(n>=e.length)throw new Error("high surrogate without trailing low surrogate");var a=e.charCodeAt(n);if(a<56320||a>57343)throw new Error("high surrogate without trailing low surrogate");return{char:e.charAt(t)+e.charAt(n),start:t,end:n}}if(0===t)throw new Error("low surrogate without leading high surrogate");var i=t-1,o=e.charCodeAt(i);if(o<55296||o>56319)throw new Error("low surrogate without leading high surrogate");return{char:e.charAt(i)+e.charAt(t),start:i,end:t}}var _nativeMathRandom=Math.random;Object.defineProperty(Array,"random",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e||!Object.prototype.hasOwnProperty.call(e,"length"))throw new TypeError("Array.random array parameter must be an array or array-lke object");var t=e.length>>>0;if(0!==t){return e[0===arguments.length?_random(0,t-1):_randomIndex(t,Array.prototype.slice.call(arguments,1))]}}}),Object.defineProperty(Array.prototype,"concatUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.concatUnique called on null or undefined");var e=Array.from(this);if(0===arguments.length)return e;var t=Array.prototype.reduce.call(arguments,function(e,t){return e.concat(t)},[]),r=t.length;if(0===r)return e;for(var n=Array.prototype.indexOf,a=Array.prototype.push,i=0;i<r;++i){var o=t[i];-1===n.call(e,o)&&a.call(e,o)}return e}}),Object.defineProperty(Array.prototype,"count",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.count called on null or undefined");for(var e=Array.prototype.indexOf,t=arguments[0],r=Number(arguments[1])||0,n=0;-1!==(r=e.call(this,t,r));)++n,++r;return n}}),Object.defineProperty(Array.prototype,"delete",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.delete called on null or undefined");if(0===arguments.length)return[];var e=this.length>>>0;if(0===e)return[];for(var t=Array.prototype.concat.apply([],arguments),r=t.length,n=[],a=0;a<e;++a)for(var i=this[a],o=0;o<r;++o){var s=t[o];if(i===s||i!==i&&s!==s){n.push(a);break}}for(var u=[],l=0,c=n.length;l<c;++l)u[l]=this[n[l]];for(var d=Array.prototype.splice,f=n.length-1;f>=0;--f)d.call(this,n[f],1);return u}}),Object.defineProperty(Array.prototype,"deleteAt",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.deleteAt called on null or undefined");if(0===arguments.length)return[];var e=this.length>>>0;if(0===e)return[];for(var t=Array.prototype.splice,r=[].concat(_toConsumableArray(new Set(Array.prototype.concat.apply([],arguments).map(function(t){return t<0?Math.max(0,e+t):t})).values())),n=[].concat(_toConsumableArray(r)).sort(function(e,t){return t-e}),a=[],i=0,o=r.length;i<o;++i)a[i]=this[r[i]];for(var s=0,u=n.length;s<u;++s)t.call(this,n[s],1);return a}}),Object.defineProperty(Array.prototype,"deleteWith",{configurable:!0,writable:!0,value:function(e,t){if(null==this)throw new TypeError("Array.prototype.deleteWith called on null or undefined");if("function"!=typeof e)throw new Error("Array.prototype.deleteWith predicate parameter must be a function");var r=this.length>>>0;if(0===r)return[];for(var n=Array.prototype.splice,a=[],i=[],o=0;o<r;++o)e.call(t,this[o],o,this)&&(i.push(this[o]),a.push(o));for(var s=a.length-1;s>=0;--s)n.call(this,a[s],1);return i}}),Object.defineProperty(Array.prototype,"first",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.first called on null or undefined");if(0!=this.length>>>0)return this[0]}}),Object.defineProperty(Array.prototype,"includesAll",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includesAll called on null or undefined");if(1===arguments.length)return Array.isArray(arguments[0])?Array.prototype.includesAll.apply(this,arguments[0]):Array.prototype.includes.apply(this,arguments);for(var e=0,t=arguments.length;e<t;++e)if(!Array.prototype.some.call(this,function(e){return e===this.val||e!==e&&this.val!==this.val},{val:arguments[e]}))return!1;return!0}}),Object.defineProperty(Array.prototype,"includesAny",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includesAny called on null or undefined");if(1===arguments.length)return Array.isArray(arguments[0])?Array.prototype.includesAny.apply(this,arguments[0]):Array.prototype.includes.apply(this,arguments);for(var e=0,t=arguments.length;e<t;++e)if(Array.prototype.some.call(this,function(e){return e===this.val||e!==e&&this.val!==this.val},{val:arguments[e]}))return!0;return!1}}),Object.defineProperty(Array.prototype,"last",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.last called on null or undefined");var e=this.length>>>0;if(0!==e)return this[e-1]}}),Object.defineProperty(Array.prototype,"pluck",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.pluck called on null or undefined");var e=this.length>>>0;if(0!==e){var t=0===arguments.length?_random(0,e-1):_randomIndex(e,[].concat(Array.prototype.slice.call(arguments)));return Array.prototype.splice.call(this,t,1)[0]}}}),Object.defineProperty(Array.prototype,"pluckMany",{configurable:!0,writable:!0,value:function(e){if(null==this)throw new TypeError("Array.prototype.pluckMany called on null or undefined");var t=this.length>>>0;if(0===t)return[];var r=Math.trunc(e);if(!Number.isInteger(r))throw new Error("Array.prototype.pluckMany want parameter must be an integer");if(r<1)return[];r>t&&(r=t);var n=Array.prototype.splice,a=[],i=t-1;do{a.push(n.call(this,_random(0,i--),1)[0])}while(a.length<r);return a}}),Object.defineProperty(Array.prototype,"pushUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.pushUnique called on null or undefined");var e=arguments.length;if(0===e)return this.length>>>0;for(var t=Array.prototype.indexOf,r=Array.prototype.push,n=0;n<e;++n){var a=arguments[n];-1===t.call(this,a)&&r.call(this,a)}return this.length>>>0}}),Object.defineProperty(Array.prototype,"random",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.random called on null or undefined");var e=this.length>>>0;if(0!==e){return this[0===arguments.length?_random(0,e-1):_randomIndex(e,[].concat(Array.prototype.slice.call(arguments)))]}}}),Object.defineProperty(Array.prototype,"randomMany",{configurable:!0,writable:!0,value:function(e){if(null==this)throw new TypeError("Array.prototype.randomMany called on null or undefined");var t=this.length>>>0;if(0===t)return[];var r=Math.trunc(e);if(!Number.isInteger(r))throw new Error("Array.prototype.randomMany want parameter must be an integer");if(r<1)return[];r>t&&(r=t);var n=new Map,a=[],i=t-1;do{var o=void 0;do{o=_random(0,i)}while(n.has(o));n.set(o,!0),a.push(this[o])}while(a.length<r);return a}}),Object.defineProperty(Array.prototype,"shuffle",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.shuffle called on null or undefined");var e=this.length>>>0;if(0===e)return this;for(var t=e-1;t>0;--t){var r=Math.floor(_nativeMathRandom()*(t+1));if(t!==r){var n=this[t];this[t]=this[r],this[r]=n}}return this}}),Object.defineProperty(Array.prototype,"unshiftUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.unshiftUnique called on null or undefined");var e=arguments.length;if(0===e)return this.length>>>0;for(var t=Array.prototype.indexOf,r=Array.prototype.unshift,n=0;n<e;++n){var a=arguments[n];-1===t.call(this,a)&&r.call(this,a)}return this.length>>>0}}),Object.defineProperty(Function.prototype,"partial",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Function.prototype.partial called on null or undefined");var e=Array.prototype.slice,t=this,r=e.call(arguments,0);return function(){for(var n=[],a=0,i=0;i<r.length;++i)n.push(r[i]===undefined?arguments[a++]:r[i]);return t.apply(this,n.concat(e.call(arguments,a)))}}}),Object.defineProperty(Math,"clamp",{configurable:!0,writable:!0,value:function(e,t,r){var n=Number(e);return Number.isNaN(n)?NaN:n.clamp(t,r)}}),Object.defineProperty(Math,"easeInOut",{configurable:!0,writable:!0,value:function(e){return 1-(Math.cos(Number(e)*Math.PI)+1)/2}}),Object.defineProperty(Number.prototype,"clamp",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Number.prototype.clamp called on null or undefined");if(2!==arguments.length)throw new Error("Number.prototype.clamp called with an incorrect number of parameters");var e=Number(arguments[0]),t=Number(arguments[1]);if(e>t){var r=[t,e];e=r[0],t=r[1]}return Math.min(Math.max(this,e),t)}}),RegExp.escape||function(){var e=/[\\^$*+?.()|[\]{}]/g,t=new RegExp(e.source);Object.defineProperty(RegExp,"escape",{configurable:!0,writable:!0,value:function(r){var n=String(r);return n&&t.test(n)?n.replace(e,"\\$&"):n}})}(),function(){var e=/{(\d+)(?:,([+-]?\d+))?}/g,t=new RegExp(e.source);Object.defineProperty(String,"format",{configurable:!0,writable:!0,value:function(r){function n(e,t,r){if(!t)return e;var n=Math.abs(t)-e.length;if(n<1)return e;var a=String(r).repeat(n);return t<0?e+a:a+e}if(arguments.length<2)return 0===arguments.length?"":r;var a=2===arguments.length&&Array.isArray(arguments[1])?[].concat(_toConsumableArray(arguments[1])):Array.prototype.slice.call(arguments,1);return 0===a.length?r:t.test(r)?(e.lastIndex=0,r.replace(e,function(e,t,r){var i=a[t];if(null==i)return"";for(;"function"==typeof i;)i=i();switch(void 0===i?"undefined":_typeof(i)){case"string":break;case"object":i=JSON.stringify(i);break;default:i=String(i)}return n(i,r?Number.parseInt(r,10):0," ")})):r}})}(),Object.defineProperty(String.prototype,"contains",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.contains called on null or undefined");return-1!==String.prototype.indexOf.apply(this,arguments)}}),Object.defineProperty(String.prototype,"count",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.count called on null or undefined");var e=String(arguments[0]||"");if(""===e)return 0;for(var t=String.prototype.indexOf,r=e.length,n=Number(arguments[1])||0,a=0;-1!==(n=t.call(this,e,n));)++a,n+=r;return a}}),Object.defineProperty(String.prototype,"first",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.first called on null or undefined");return _getCodePointStartAndEnd(String(this),0).char}}),Object.defineProperty(String.prototype,"last",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.last called on null or undefined");var e=String(this);return _getCodePointStartAndEnd(e,e.length-1).char}}),Object.defineProperty(String.prototype,"splice",{configurable:!0,writable:!0,value:function(e,t,r){if(null==this)throw new TypeError("String.prototype.splice called on null or undefined");var n=this.length>>>0;if(0===n)return"";var a=Number(e);Number.isSafeInteger(a)?a<0&&(a+=n)<0&&(a=0):a=0,a>n&&(a=n);var i=Number(t);(!Number.isSafeInteger(i)||i<0)&&(i=0);var o=this.slice(0,a);return void 0!==r&&(o+=r),a+i<n&&(o+=this.slice(a+i)),o}}),Object.defineProperty(String.prototype,"splitOrEmpty",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.splitOrEmpty called on null or undefined");return""===String(this)?[]:String.prototype.split.apply(this,arguments)}}),Object.defineProperty(String.prototype,"toLocaleUpperFirst",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.toLocaleUpperFirst called on null or undefined");var e=String(this),t=_getCodePointStartAndEnd(e,0),r=t.char,n=t.end;return-1===n?"":r.toLocaleUpperCase()+e.slice(n+1)}}),Object.defineProperty(String.prototype,"toUpperFirst",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.toUpperFirst called on null or undefined");var e=String(this),t=_getCodePointStartAndEnd(e,0),r=t.char,n=t.end;return-1===n?"":r.toUpperCase()+e.slice(n+1)}}),Object.defineProperty(Date.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:date)",this.toISOString()]}}),Object.defineProperty(Function.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:eval)","("+this.toString()+")"]}}),Object.defineProperty(Map.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:map)",[].concat(_toConsumableArray(this))]}}),Object.defineProperty(RegExp.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:eval)",this.toString()]}}),Object.defineProperty(Set.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:set)",[].concat(_toConsumableArray(this))]}}),Object.defineProperty(JSON,"reviveWrapper",{configurable:!0,writable:!0,value:function(e,t){if("string"!=typeof e)throw new TypeError("JSON.reviveWrapper code parameter must be a string");return["(revive:eval)",[e,t]]}}),Object.defineProperty(JSON,"_real_stringify",{value:JSON.stringify}),Object.defineProperty(JSON,"stringify",{configurable:!0,writable:!0,value:function(e,t,r){return JSON._real_stringify(e,function(e,r){var n=r;if("function"==typeof t)try{n=t(e,n)}catch(e){}return void 0===n&&(n=["(revive:eval)","undefined"]),n},r)}}),Object.defineProperty(JSON,"_real_parse",{value:JSON.parse}),Object.defineProperty(JSON,"parse",{configurable:!0,writable:!0,value:function value(text,reviver){return JSON._real_parse(text,function(key,val){var value=val;if(Array.isArray(value)&&2===value.length)switch(value[0]){case"(revive:set)":value=new Set(value[1]);break;case"(revive:map)":value=new Map(value[1]);break;case"(revive:date)":value=new Date(value[1]);break;case"(revive:eval)":try{if(Array.isArray(value[1])){var $ReviveData$=value[1][1];value=eval(value[1][0])}else value=eval(value[1])}catch(e){}}else if("string"==typeof value&&"@@revive@@"===value.slice(0,10))try{value=eval(value.slice(10))}catch(e){}if("function"==typeof reviver)try{value=reviver(key,value)}catch(e){}return value})}}),Object.defineProperty(Array.prototype,"contains",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.contains called on null or undefined");return Array.prototype.includes.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"containsAll",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.containsAll called on null or undefined");return Array.prototype.includesAll.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"containsAny",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.containsAny called on null or undefined");return Array.prototype.includesAny.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"flatten",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.flatten called on null or undefined");return Array.prototype.flat.call(this,1/0)}}),Object.defineProperty(String.prototype,"readBracketedList",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.readBracketedList called on null or undefined");for(var e=new RegExp("(?:\\[\\[((?:\\s|\\S)*?)\\]\\])|([^\"'\\s]\\S*)","gm"),t=[],r=void 0;null!==(r=e.exec(this));)r[1]?t.push(r[1]):r[2]&&t.push(r[2]);return t}})}();var Browser=function(){var e=navigator.userAgent.toLowerCase(),t=e.includes("windows phone"),r=Object.freeze({Android:!t&&e.includes("android"),BlackBerry:/blackberry|bb10/.test(e),iOS:!t&&/ip(?:hone|ad|od)/.test(e),Opera:!t&&("object"===_typeof(window.operamini)||e.includes("opera mini")),Windows:t||/iemobile|wpdesktop/.test(e),any:function(){return r.Android||r.BlackBerry||r.iOS||r.Opera||r.Windows}}),n=!r.Windows&&!/khtml|trident|edge/.test(e)&&e.includes("gecko"),a=!e.includes("opera")&&/msie|trident/.test(e),i=a?function(){var t=/(?:msie\s+|rv:)(\d+\.\d)/.exec(e);return t?Number(t[1]):0}():null,o=e.includes("opera")||e.includes(" opr/"),s=o?function(){var t=new RegExp((/khtml|chrome/.test(e)?"opr":"version")+"\\/(\\d+\\.\\d+)"),r=t.exec(e);return r?Number(r[1]):0}():null,u=e.includes("vivaldi");return Object.freeze({userAgent:e,isMobile:r,isGecko:n,isIE:a,ieVersion:i,isOpera:o,operaVersion:s,isVivaldi:u})}(),Has=function(){var e=function(){try{return"function"==typeof document.createElement("audio").canPlayType}catch(e){}return!1}(),t=function(){try{return"Blob"in window&&"File"in window&&"FileList"in window&&"FileReader"in window&&(!Browser.isOpera||Browser.operaVersion>=15)}catch(e){}return!1}(),r=function(){try{return"geolocation"in navigator&&"function"==typeof navigator.geolocation.getCurrentPosition&&"function"==typeof navigator.geolocation.watchPosition}catch(e){}return!1}(),n=function(){try{return"MutationObserver"in window&&"function"==typeof window.MutationObserver}catch(e){}return!1}(),a=function(){try{return"performance"in window&&"function"==typeof window.performance.now}catch(e){}return!1}(),i=function(){try{return"ontouchstart"in window||!!window.DocumentTouch&&document instanceof window.DocumentTouch||!!navigator.maxTouchPoints||!!navigator.msMaxTouchPoints}catch(e){}return!1}(),o=function(){try{for(var e=new Map([["transition","transitionend"],["MSTransition","msTransitionEnd"],["WebkitTransition","webkitTransitionEnd"],["MozTransition","transitionend"]]),t=[].concat(_toConsumableArray(e.keys())),r=document.createElement("div"),n=0;n<t.length;++n)if(r.style[t[n]]!==undefined)return e.get(t[n])}catch(e){}return!1}();return Object.freeze({audio:e,fileAPI:t,geolocation:r,mutationObserver:n,performance:a,touch:i,transitionEndEvent:o})}(),Visibility=function(){function e(){return a}function t(){return a&&document[a.stateProperty]||"visible"}function r(){return Boolean(a)}function n(){return Boolean(a&&document[a.hiddenProperty])}var a=function(){try{return Object.freeze([{hiddenProperty:"hidden",stateProperty:"visibilityState",changeEvent:"visibilitychange"},{hiddenProperty:"webkitHidden",stateProperty:"webkitVisibilityState",changeEvent:"webkitvisibilitychange"},{hiddenProperty:"mozHidden",stateProperty:"mozVisibilityState",changeEvent:"mozvisibilitychange"},{hiddenProperty:"msHidden",stateProperty:"msVisibilityState",changeEvent:"msvisibilitychange"}].find(function(e){return e.hiddenProperty in document}))}catch(e){}return undefined}();return Object.freeze(Object.defineProperties({},{vendor:{get:e},state:{get:t},isEnabled:{value:r},isHidden:{value:n},hiddenProperty:{value:a&&a.hiddenProperty},stateProperty:{value:a&&a.stateProperty},changeEvent:{value:a&&a.changeEvent}}))}(),Fullscreen=function(){function e(e){var t=e||document.documentElement;return t===document.documentElement&&("msRequestFullscreen"===f.requestFn||Browser.isOpera&&Browser.operaVersion<15)&&(t=document.body),t}function t(){return f}function r(){return(f||null)&&document[f.element]}function n(){return Boolean(f&&document[f.isEnabled])}function a(){return Boolean(f&&document[f.element])}function i(t,r){var n=this;if(!f)return Promise.reject(new Error("fullscreen not supported"));var i=e(r);if("function"!=typeof i[f.requestFn])return Promise.reject(new Error("fullscreen not supported"));if(a())return Promise.resolve();if(p())return i[f.requestFn](t);var o=".Fullscreen_requestFullscreen";return new Promise(function(e,r){jQuery(i).off(o).one(""+f.errorEvent+o+" "+f.changeEvent+o,function(t){jQuery(n).off(o),t.type===f.errorEvent?r(new Error("unknown fullscreen request error")):e()}),i[f.requestFn](t)})}function o(){var e=this;if(!f||"function"!=typeof document[f.exitFn])return Promise.reject(new TypeError("fullscreen not supported"));if(!a())return Promise.reject(new TypeError("fullscreen mode not active"));if(p())return document[f.exitFn]();var t=".Fullscreen_exitFullscreen";return new Promise(function(r,n){jQuery(document).off(t).one(""+f.errorEvent+t+" "+f.changeEvent+t,function(a){jQuery(e).off(t),a.type===f.errorEvent?n(new Error("unknown fullscreen exit error")):r()}),document[f.exitFn]()})}function s(e,t){return a()?o():i(e,t)}function u(t,r){if(f){var n=e(r);$(n).on(f.changeEvent,t)}}function l(t,r){if(f){var n=e(r);t?$(n).off(f.changeEvent,t):$(n).off(f.changeEvent)}}function c(t,r){if(f){var n=e(r);$(n).on(f.errorEvent,t)}}function d(t,r){if(f){var n=e(r);t?$(n).off(f.errorEvent,t):$(n).off(f.errorEvent)}}var f=function(){try{return Object.freeze([{isEnabled:"fullscreenEnabled",element:"fullscreenElement",requestFn:"requestFullscreen",exitFn:"exitFullscreen",changeEvent:"fullscreenchange",errorEvent:"fullscreenerror"},{isEnabled:"webkitFullscreenEnabled",element:"webkitFullscreenElement",requestFn:"webkitRequestFullscreen",exitFn:"webkitExitFullscreen",changeEvent:"webkitfullscreenchange",errorEvent:"webkitfullscreenerror"},{isEnabled:"mozFullScreenEnabled",element:"mozFullScreenElement",requestFn:"mozRequestFullScreen",exitFn:"mozCancelFullScreen",changeEvent:"mozfullscreenchange",errorEvent:"mozfullscreenerror"},{isEnabled:"msFullscreenEnabled",element:"msFullscreenElement",requestFn:"msRequestFullscreen",exitFn:"msExitFullscreen",changeEvent:"MSFullscreenChange",errorEvent:"MSFullscreenError"}].find(function(e){return e.isEnabled in document}))}catch(e){}return undefined}(),p=function(){function e(){if(null!==t)return t;if(t=!1,f)try{var e=document.exitFullscreen();e.catch(function(){}),t=e instanceof Promise}catch(e){}return t}var t=null;return e}();return Object.freeze(Object.defineProperties({},{vendor:{get:t},element:{get:r},isEnabled:{value:n},isFullscreen:{value:a},request:{value:i},exit:{value:o},toggle:{value:s},onChange:{value:u},offChange:{value:l},onError:{value:c},offError:{value:d}}))}(),_ref3=function(){function e(e){for(var t=e.cloneNode(!0),r=document.createDocumentFragment(),n=void 0;null!==(n=t.firstChild);){if(n.nodeType===Node.ELEMENT_NODE)switch(n.nodeName.toUpperCase()){case"BR":case"DIV":case"P":r.appendChild(document.createTextNode(" "))}r.appendChild(n)}return r.textContent}function t(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e)return e;if(e instanceof String)return String(e);if(e instanceof Number)return Number(e);if(e instanceof Boolean)return Boolean(e)
