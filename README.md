@@ -4,7 +4,7 @@ Welcome to the website for my Twine Game, created for the course IASC 1P04 at Br
 
 ## Final
 
-Play my final build [here!](final/StyxFinal.html)
+Play my final build [here!](final_build/StyxFinal.html)
 
 ## Playtest
 
