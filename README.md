@@ -2,6 +2,10 @@
 
 Welcome to the website for my Twine Game, created for the course IASC 1P04 at Brock University.
 
+## Final
+
+Play my final build [here!](final/StyxFinal.html)
+
 ## Playtest
 
 Playtest my game [here!](playtest/playtest)
